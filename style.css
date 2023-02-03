@@ -1,0 +1,287 @@
+*
+{
+	margin: 0;
+	padding: 0;
+}
+body
+{
+	margin: 0;
+	padding: 0;
+	background-color: #000;
+}
+
+
+
+
+
+
+
+
+
+.text
+{
+	position: absolute;
+	top: 20%;
+	left: 51%;
+	-webkit-transform: translate(-50%, -50%);
+	   -moz-transform: translate(-50%, -50%);
+	    -ms-transform: translate(-50%, -50%);
+	     -o-transform: translate(-50%, -50%);
+	        transform: translate(-50%, -50%);
+}
+
+.text span
+{
+	position: relative;
+	background: linear-gradient(to right, #F11D28, #FD3A2D, #FE612C, #FF872C, #FFA12C);
+	font-family: verdana;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	font-weight: bold;
+	letter-spacing: 15px;
+	font-size: 70px;
+	animation: animate 1s linear infinite;
+}
+@keyframes animate
+{
+	0%
+	{
+
+		filter: blur(0);
+	}
+	40%
+	{
+
+		filter: blur(100px);
+	}
+	80%
+	{
+
+		filter: blur(0);
+	}
+	100%
+	{
+
+		filter: blur(0);
+	}
+}
+.text span:nth-child(1)
+{
+	animation-delay: 0.25s;
+}
+.text span:nth-child(2)
+{
+	animation-delay: 0.50s;
+}
+.text span:nth-child(3)
+{
+	animation-delay: 0.75s;
+}
+.text span:nth-child(4)
+{
+	animation-delay: 1.0s;
+}
+.text span:nth-child(5)
+{
+	animation-delay: 1.25s;
+}
+.text span:nth-child(6)
+{
+	animation-delay: 1.5s;
+}
+.text span:nth-child(7)
+{
+	animation-delay: 1.75s;
+}
+.text span:nth-child(8)
+{
+	animation-delay: 2.0s;
+}
+.text span:nth-child(9)
+{
+	animation-delay: 2.25s;
+}
+.text span:nth-child(10)
+{
+	animation-delay: 2.5s;
+}
+
+
+
+.text2
+{
+	position: absolute;
+	top: 40%;
+	left: 51%;
+	-webkit-transform: translate(-50%, -50%);
+	   -moz-transform: translate(-50%, -50%);
+	    -ms-transform: translate(-50%, -50%);
+	     -o-transform: translate(-50%, -50%);
+	        transform: translate(-50%, -50%);
+}
+.text2 span
+{
+	position: relative;
+	background: linear-gradient(to right, #F11D28, #FD3A2D, #FE612C, #FF872C, #FFA12C);
+	font-family: times;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	font-weight: italic;
+	letter-spacing: 15px;
+	font-size: 70px;
+	animation: animate 2s linear infinite;
+}
+@keyframes animate
+{
+	0%
+	{
+
+		filter: blur(0);
+	}
+	40%
+	{
+
+		filter: blur(100px);
+	}
+	80%
+	{
+
+		filter: blur(0);
+	}
+	100%
+	{
+
+		filter: blur(0);
+	}
+}
+.text2 span:nth-child(1)
+{
+	animation-delay: 0.25s;
+}
+.text2 span:nth-child(2)
+{
+	animation-delay: 0.50s;
+}
+.text2 span:nth-child(3)
+{
+	animation-delay: 0.75s;
+}
+.text2 span:nth-child(4)
+{
+	animation-delay: 1.0s;
+}
+.text2 span:nth-child(5)
+{
+	animation-delay: 1.25s;
+}
+.text2 span:nth-child(6)
+{
+	animation-delay: 1.5s;
+}
+.text2 span:nth-child(7)
+{
+	animation-delay: 1.75s;
+}
+.text2 span:nth-child(8)
+{
+	animation-delay: 2.0s;
+}
+.text2 span:nth-child(9)
+{
+	animation-delay: 2.25s;
+}
+.text2 span:nth-child(10)
+{
+	animation-delay: 2.5s;
+}
+
+
+
+.text3
+{
+	position: absolute;
+	top: 60%;
+	left: 51%;
+	-webkit-transform: translate(-50%, -50%);
+	   -moz-transform: translate(-50%, -50%);
+	    -ms-transform: translate(-50%, -50%);
+	     -o-transform: translate(-50%, -50%);
+	        transform: translate(-50%, -50%);
+}
+.text3 span
+{
+	position: relative;
+	background: linear-gradient(to right, #F11D28, #FD3A2D, #FE612C, #FF872C, #FFA12C);
+	font-family: Helvetica;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	font-weight: bold;
+	letter-spacing: 15px;
+	font-size: 70px;
+	animation: animate 3s linear infinite;
+}
+@keyframes animate
+{
+	0%
+	{
+
+		filter: blur(0);
+
+	}
+	40%
+	{
+
+		filter: blur(100px);
+	}
+	80%
+	{
+
+		filter: blur(0);
+	}
+	100%
+	{
+
+		filter: blur(0);
+
+	}
+}
+.text3 span:nth-child(1)
+{
+	animation-delay: 0.25s;
+}
+.text3 span:nth-child(2)
+{
+	animation-delay: 0.50s;
+}
+.text3 span:nth-child(3)
+{
+	animation-delay: 0.75s;
+}
+.text3 span:nth-child(4)
+{
+	animation-delay: 1.0s;
+}
+.text3 span:nth-child(5)
+{
+	animation-delay: 1.25s;
+}
+.text3 span:nth-child(6)
+{
+	animation-delay: 1.5s;
+}
+.text3 span:nth-child(7)
+{
+	animation-delay: 1.75s;
+}
+.text3 span:nth-child(8)
+{
+	animation-delay: 2.0s;
+}
+.text3 span:nth-child(9)
+{
+	animation-delay: 2.25s;
+}
+.text3 span:nth-child(10)
+{
+	animation-delay: 2.5s;
+}
